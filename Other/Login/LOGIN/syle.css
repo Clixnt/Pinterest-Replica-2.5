@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html {
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+  scrollbar-color: var(--scrollbar-color);
+}
+body {
+  background-color: var(--background-ui);
+  font-family: var(--font-OpenSans);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* outline: 2px solid blueviolet; */
+  transition: linear 0.05s;
+}
+:root {
+  --scrollbar-color: red whitesmoke;
+  --font-OpenSans: "Open Sans", serif;
+  --font-kanit: "Kanit", serif;
+  --font-roboto: "Roboto", serif;
+  --darkmode-text: black;
+  --gray-transparent: rgba(0, 0, 0, 0.4);
+  --background-ui: #645f5f15;
+  --bg-input: #e0e0e0;
+  --bg-input-hover: rgba(0, 0, 0, 0.212);
+  --bg-hover: rgba(230, 223, 223, 0.671);
+  --bg-dropdown-nav-hover: rgba(128, 128, 128, 0.158);
+  --bg-info-nav: #e8e8e8;
+  --CssScan-ShadowBox: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  --CssScan-ShadowBox-header: rgba(99, 99, 99, 0.089) 0px 1px 7px 0px;
+}
+.dark-theme {
+  --scrollbar-color: red #575757;
+  --background-ui: #575757;
+  --darkmode-text: white;
+  --bg-input-hover: #c2c2c2;
+  --bg-hover: rgba(128, 128, 128, 0.5);
+  --CssScan-ShadowBox-header: rgba(0, 0, 0, 0.103) 0px 1px 7px 0px;
+}
+
+/* Real Code Stars Here 🗣️🗣️🗣️ */
